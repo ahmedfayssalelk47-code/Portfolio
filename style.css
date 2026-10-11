@@ -11,12 +11,12 @@ body {
 }
 
 table {
-    width: 95%
+    width: 95%;
     max-width: 600px;
     background: white;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0, 3);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 input {
@@ -29,10 +29,10 @@ input {
 button {
     margin-top: 15px;
     padding: 10px 30px;
-    background: rgb(8;4;41);
-    font-size: 16px cursor: pointer
-}
-
-button:hover {
-    background: rgb(195, 107, 13);
+    background: rgb(8,4,41);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
 }
